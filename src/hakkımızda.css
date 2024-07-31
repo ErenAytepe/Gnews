@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image: url('https://i.pinimg.com/originals/b9/8f/b1/b98fb1cb16fc0dfe8a15f0a3d018552e.gif');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+}
+
+.hkapsayıcı {
+    position: relative;
+    height: 100vh; 
+    width: 100%;
+    overflow: hidden;
+}
+
+.hkapsayıcı video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.hkapsayıcı .content {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 5;
+    color: #fff;
+}
+
+.hkapsayıcı p {
+    font-size: 25px;
+    color: rgb(41, 41, 41);
+}
+
+.content h1 {
+    font-size: 100px;
+    text-wrap: nowrap;
+    color: rgb(0, 0, 0)
+}
+
+.content {
+    background-color: rgba(255, 255, 255, 0.5);
+    
+}
+

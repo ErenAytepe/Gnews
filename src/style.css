@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 150vh;
+    background-color: #b1b1b1;
+}
+
+i,li,ul,a,p{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    font-weight: bolder;
+}
+
+header{
+    width: 100%;
+    justify-content: space-evenly;
+    background-color: #696969;
+}
+
+.header-center>ul{
+    display: flex;
+}
+
+.header-center li{
+    padding: 10px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 0 70px;
+    border-bottom: 1px solid darkblue;
+}
+
+.header-left{
+    display: flex;
+    align-items: center;
+}
+
+.header-right{
+    display: flex;
+    align-items: center;
+}
+
+.header-left img{
+    height: 90px;
+}
+
+
+/* ANİMASYONLAR */
+
+
+.header-center ul li a {
+    display: inline-block;
+    font-weight: 900;
+    padding: 8px 0;
+    transition: 300ms;
+    font-size: 24px;
+    position: relative;
+}
+
+.header-center ul li a:before,
+.header-center ul li a:after {
+    content: "";
+    height: 1px;
+    background: rgb(255, 255, 255);
+    position: absolute;
+    bottom: 0;
+    transition: 300ms;
+}
+
+.header-center ul li a:before {
+    left: 50%;
+    right: 50%;
+}
+
+.header-center ul li a:after {
+    left: 50%;
+    right: 50%;
+}
+
+.header-center ul li a:hover:before {
+    left: 0%;
+}
+
+.header-center ul li a:hover:after {
+    right: 0%;
+}
+
+.header-center ul li a:hover {
+    color: rgb(255, 255, 255)
+}
+
+/* ANİMASYONLAR */
+
+
+
+/* KARTLAR */
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    height: 125vh;
+}
+
+.card{
+    object-fit: cover;
+    height: 300px;
+    width: 500px;
+    margin-top: 40px;
+    text-align: center;
+    margin-left:auto;
+    margin-right: auto;
+    
+}
+
+.card img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.card-about p{
+    margin-top: 10px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+
+}
+
+.card-about a {
+    margin: 25px;
+    margin-top: 15px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+
+}
+
+
+/* KARTLAR */
+
+
+
+
+
+
+
+
+
+
+/* İLETİŞİM FORMU */
+.contact{
+background-image: url(assets/images/radio.png);
+height: 100vh;
+}
+
+
+.container-contact {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    height: 700px;
+    margin-top: 90px;
+}
+.container-contact h2{
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+form button{
+    position: absolute;
+    right: 40%;
+    width: 100px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    
+}
+
+button {
+    background: rgb(13, 78, 27);
+    color: #fff;
+    padding: 15px 22px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* İLETİŞİM FORMU */
+
+
+/* FOOTER */
+
+footer{
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+}
+.copyright { /* Sitenin en aşağısında bulunan telif hakkının arka planı ve rengi. */
+    background-color: rgb(138, 20, 20);
+    width: 98;
+    padding: 1px;
+    text-align: center;
+}
+
+.copyright p { /* Sitenin en aşağısında bulunan telif hakkının yazısının ayarları. */
+    font-size: 14px;
+    word-spacing: 3px;
+    text-transform: capitalize;
+	
+/* FOOTER */
+}
+
+/* İÇERİK SAYFASI */
+
+
+.box {
+    width: 100%;
+    height: 100%;
+    margin-top: 25px;
+}
+
+.box img {
+    width: 55%;
+    height: 55%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.text h1{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+.text2 p {
+    font-size: 24px;
+}
+
+.text2 {
+    width: 1340px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+
+
+
+/* İÇERİK SAYFASI */
